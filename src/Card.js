@@ -10,7 +10,7 @@ export default function Travel(props){
             </div>
             <div className="list--text">
                 <span className="list--location">
-                <img src={`./images/pin.png`}  alt=""/> JAPAN
+                <img src={`./images/pin.png`}  alt=""/> {props.country}
                 </span>
                 <span className="map--link"><a href={`${props.maplink}`} title="">View on Google Maps</a> </span>
                 <h2>{props.title}</h2>
